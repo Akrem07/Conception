@@ -1,0 +1,32 @@
+
+****identification de la voiture****
+1) créer une interface pour l'identification de la véhicule 
+2) après l'identification, configurer une confirmation par mail ou SMS
+3) si le num d'immatriculation est erroné et numéro chassis est correcte, préparer une notification qui recommande de contacter un service concerné par téléphone. 
+4) si le num de chassis est erroné et numéro d'immatriculation est correcte, préparer un formulaire pour que le client fasse la création d'un compte MyCar
+Mettre en place un système de validation évoqué par OTP envoyé par SMS ou MAIL
+
+
+****choisir Service****
+Créer une interface contenant l'ensemble de services(service rapide/service diagnostic/service réparation / service visite 1000)
+
+
+****Chercher Agence ****
+Créer une interface incluant un map contenat toutes les agences ayant le service choisi 
+
+****Prendre RDV*****
+-Créer un module de service rapide permettant aux clients de saisir le kilométrage 
+-Créer un module de service diagnostique permettant aux clients de déposer l'objet de présentation de son véhicule quelque soit une description textuelle pu importer une ou plusieurs images afin de bien présenter la cause du diagnostic, puis afficher le calendrier pour choisir le RDV.
+-Créer un module de service de réparation permettant aux clients de saisir le numéro de devis et confirmer s'il existe ou pas , puis une notification est envoyée au client pour qu'il attende un appel du conseillé client afin de prendre un RDV.
+-Créer un module de service 1000 permettant aux clients de saisir le kilométrage et de vérifier si'il a le droit de profiter de ce service, puis si ce client peut bénéficier de ce service on afficher le calendrier pour prendre un RDv 
+- préparer un système de notification pour rappeler des RDV
+
+***** Donner feedback****
+Développer une fonctionnalité permettant aux clients de passer des réclamations ou de formuler une enquete de satisfaction 
+
+**** Gérer profile****
+Développer une fonctionnalité permettant aux clients de modifier son profil
+
+****gérer paramètres systèmes****
+Développer une fonctionnalité permettant à l'administrateur de modifier le capacité, le régime horaire, les jours du chaque service , nombre de personnels .
+ 
